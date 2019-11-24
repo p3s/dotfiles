@@ -2,3 +2,14 @@
 	name = Piotr Maks
 [core]
 	editor = nvim
+[alias]
+	br = branch
+	ci = commit
+	cim = commit -m
+	cl = clean
+	cla = clean -dfx
+	co = checkout
+	cob = checkout -b
+	ft = fetch
+	fta = fetch --all -p
+	st = status
