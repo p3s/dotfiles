@@ -10,6 +10,8 @@
 	cla = clean -dfx
 	co = checkout
 	cob = checkout -b
+	df = diff
+	dfs = diff --staged
 	ft = fetch
 	fta = fetch --all -p
 	st = status
