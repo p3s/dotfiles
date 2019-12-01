@@ -5,6 +5,8 @@
       "spell-check"
     ]
     telemetryConsent: "no"
+  editor:
+    fontSize: 20
   "exception-reporting":
     userId: "00206748-7c40-4503-b694-2651feaa743e"
   welcome:
