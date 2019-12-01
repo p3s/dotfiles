@@ -1,6 +1,9 @@
 "*":
   core:
     autoHideMenuBar: true
+    disabledPackages: [
+      "spell-check"
+    ]
     telemetryConsent: "no"
   "exception-reporting":
     userId: "00206748-7c40-4503-b694-2651feaa743e"
