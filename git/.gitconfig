@@ -15,4 +15,5 @@
 	ft = fetch
 	fta = fetch --all -p
 	sh = stash
+	sl = log --pretty=oneline --abbrev-commit
 	st = status
