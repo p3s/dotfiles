@@ -110,6 +110,10 @@ shopt -s expand_aliases
 
 # export QT_SELECT=4
 
+# Avoid duplicates
+HISTCONTROL=ignoredups:erasedups
+HISTFILESIZE=10000
+HISTSIZE=10000
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
 
