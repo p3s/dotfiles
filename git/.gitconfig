@@ -17,3 +17,5 @@
 	sh = stash
 	sl = log --pretty=oneline --abbrev-commit
 	st = status
+[pull]
+	rebase = true
