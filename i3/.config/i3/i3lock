@@ -1,0 +1,2 @@
+/usr/bin/xset dpms force off
+/usr/bin/i3lock --color=000000
