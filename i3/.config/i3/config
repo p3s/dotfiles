@@ -283,7 +283,6 @@ exec --no-startup-id start_conky_maia
 exec --no-startup-id xautolock -time 5 -corners ---- -detectsleep -locker "$HOME/.config/i3/i3lock"
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-exec_always --no-startup-id xrandr --output eDP1 --primary --output HDMI1  --mode "2560x1440" --right-of eDP1
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
