@@ -273,7 +273,7 @@ bindsym $mod+9 exec --no-startup-id $HOME/.config/i3/i3exit lock
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec --no-startup-id /usr/bin/autorandr --change --default default; nitrogen --restore; sleep 1; compton -b
+exec --no-startup-id /usr/bin/autorandr --change --default home; nitrogen --restore; sleep 1; compton -b
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id blueman-applet

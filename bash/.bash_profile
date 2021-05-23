@@ -8,3 +8,4 @@
 source $(rustc --print sysroot)/etc/bash_completion.d/cargo
 
 alias ll="ls -la"
+export PATH="$HOME/.poetry/bin:$PATH"
