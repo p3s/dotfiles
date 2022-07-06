@@ -17,5 +17,6 @@
 	sh = stash
 	sl = log --pretty=oneline --abbrev-commit
 	st = status
+	oh = remote set-head origin -a
 [pull]
 	rebase = true
